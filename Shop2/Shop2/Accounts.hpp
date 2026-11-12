@@ -3,8 +3,8 @@
 
 #include "Servise.hpp"
 
-extern size_t userSize;
-extern size_t currentId;
+extern size_t userSize = 3;
+extern size_t currentId = 0;
 extern std::wstring currentStatus;
 
 extern std::wstring* loginArr;

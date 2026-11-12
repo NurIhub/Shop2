@@ -8,3 +8,4 @@ extern std::wstring* loginArr = new std::wstring[userSize]{ L"admin", L"user1", 
 extern std::wstring* passArr = new std::wstring[userSize]{ L"admin", L"user1", L"user2" };
 extern std::wstring* statusArr = new std::wstring[userSize]{ L"SuperAdmin", L"Admin", L"User" };
 extern size_t* userIdArr;
+
