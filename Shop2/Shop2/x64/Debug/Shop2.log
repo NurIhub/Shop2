@@ -1,0 +1,6 @@
+﻿  Main.cpp
+Account.obj : error LNK2001: неразрешенный внешний символ "unsigned __int64 userSize" (?userSize@@3_KA).
+Authorization.obj : error LNK2001: неразрешенный внешний символ "unsigned __int64 userSize" (?userSize@@3_KA).
+Authorization.obj : error LNK2001: неразрешенный внешний символ "unsigned __int64 currentId" (?currentId@@3_KA).
+Authorization.obj : error LNK2001: неразрешенный внешний символ "unsigned __int64 * userIdArr" (?userIdArr@@3PEA_KEA).
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\x64\Debug\Shop2.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
