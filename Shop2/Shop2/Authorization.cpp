@@ -1,21 +1,35 @@
 #include "Authorization.hpp"
 
+
+
+
 void Start()
 {
 	while (true)
 	{
 		if (Login())
 		{
-			system("pause");
-		}
-		else
-		{
+			if (currentStatus == L"SuperAdmin")
+			{
+				CreateStorage();
+				SuperAdminMenu();
+			}
+			else if (currentStatus == L"Admin")
+			{
+
+			}
+			else if (currentStatus == L"User")
+			{
+
+			}
+			else
+			{
+
+			}
+
 
 		}
-	}
-
-
-
+	}	
 }
 
 bool Login()

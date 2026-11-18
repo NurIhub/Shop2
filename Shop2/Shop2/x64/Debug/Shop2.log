@@ -2,10 +2,46 @@
   Authorization.cpp
   Main.cpp
   Servise.cpp
+  Storage.cpp
   Создание кода...
-Authorization.obj : error LNK2005: "unsigned __int64 userSize" (?userSize@@3_KA) уже определен в Account.obj
-Authorization.obj : error LNK2005: "unsigned __int64 currentId" (?currentId@@3_KA) уже определен в Account.obj
-Main.obj : error LNK2005: "unsigned __int64 userSize" (?userSize@@3_KA) уже определен в Account.obj
-Main.obj : error LNK2005: "unsigned __int64 currentId" (?currentId@@3_KA) уже определен в Account.obj
-Authorization.obj : error LNK2001: неразрешенный внешний символ "unsigned __int64 * userIdArr" (?userIdArr@@3PEA_KEA).
-C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\x64\Debug\Shop2.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(16,21): error C2065: staticSize: необъявленный идентификатор
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(16,36): error C2078: слишком много инициализаторов
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(17,29): error C2065: staticSize: необъявленный идентификатор
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(19,64): error C2078: слишком много инициализаторов
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(22,2): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "sizeSt"
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(22,11): error C2065: staticSize: необъявленный идентификатор
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(25,2): error C2061: синтаксическая ошибка: идентификатор "FillArray"
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(34,8): error C2039: "wcout": не является членом "std".
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\string(23,1):
+       см. объявление "std"
+  
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(34,8): error C2065: wcout: необъявленный идентификатор
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(36,8): error C2039: "wcout": не является членом "std".
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\string(23,1):
+       см. объявление "std"
+  
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(36,8): error C2065: wcout: необъявленный идентификатор
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(36,33): error C2039: "left": не является членом "std".
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\string(23,1):
+       см. объявление "std"
+  
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(36,33): error C2065: left: необъявленный идентификатор
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(36,46): error C2664: "std::new_handler std::set_new_handler(std::new_handler) noexcept": невозможно преобразовать аргумент 1 из "int" в "std::new_handler"
+      C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(36,62):
+      Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\new(51,55):
+       см. объявление "std::set_new_handler"
+      C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(36,46):
+      при попытке сопоставить список аргументов "(int)"
+  
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(40,7): error C2065: wcout: необъявленный идентификатор
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(40,42): error C2039: "setw": не является членом "std".
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\string(23,1):
+       см. объявление "std"
+  
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(40,42): error C3861: setw: идентификатор не найден
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(44,8): error C2039: "wcout": не является членом "std".
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\string(23,1):
+       см. объявление "std"
+  
+C:\Users\Top\Documents\Маджитов амин РПО  - 2\проект1\Shop2\Shop2\Storage.cpp(44,8): error C2065: wcout: необъявленный идентификатор
