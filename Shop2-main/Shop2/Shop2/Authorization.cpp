@@ -96,7 +96,7 @@ void SuperAdminMenu()
 		}
 		else if (choose == L"3")
 		{
-
+			AddProduct();
 		}
 		else if (choose == L"4")
 		{

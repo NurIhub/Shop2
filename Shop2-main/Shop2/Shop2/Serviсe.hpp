@@ -8,8 +8,10 @@
 
 void Getline(std::wstring& str);
 bool IsNumber(const std::wstring& str);
+bool IsNotSame(const std::wstring& chooseName, std::wstring* nameArr, size_t commonSize);
+__forceinline void Err()
 
-inline void Err()
+
 {
 	std::wcout << L"Некорректный ввод\n";
 	system("pause");
@@ -24,4 +26,16 @@ void FillArray(ArrType* staticArr, ArrType* dynamicArr, size_t commonSize)
 	}
 }
 
-#endif // !_SERVICE_HPP_
+template <class ArrType>
+void ArrPushBack(ArrType*& arr, size_t size)
+{
+	size++;
+	ArrType* temp = new ArrType[size];
+	for (size_t i = 0; i < size - 1; i++)
+	{
+		temp[i] = arr[i];
+	}
+	std::swap(arr, temp);
+	delete[]temp;
+}
+#endif 
