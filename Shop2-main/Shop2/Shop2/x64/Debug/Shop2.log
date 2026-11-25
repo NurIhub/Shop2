@@ -1,8 +1,11 @@
-﻿  Service.cpp
-C:\Users\Top\Downloads\Shop2-main\Shop2-main\Shop2\Shop2\Service.cpp(28,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+﻿  Account.cpp
+  Authorization.cpp
+  Main.cpp
+  Servise.cpp
   Storage.cpp
-C:\Users\Top\Downloads\Shop2-main\Shop2-main\Shop2\Shop2\Storage.cpp(13,8): error C2040: maxStorageSize: "size_t" отличается по уровням косвенного обращения от "size_t *"
-C:\Users\Top\Downloads\Shop2-main\Shop2-main\Shop2\Shop2\Storage.cpp(14,8): error C2040: currentStorageSize: "size_t" отличается по уровням косвенного обращения от "size_t *"
-C:\Users\Top\Downloads\Shop2-main\Shop2-main\Shop2\Shop2\Storage.cpp(140,30): warning C4018: '>': несоответствие знака и беззнака
-C:\Users\Top\Downloads\Shop2-main\Shop2-main\Shop2\Shop2\Storage.cpp(291,29): warning C4018: '>': несоответствие знака и беззнака
   Создание кода...
+Account.obj : error LNK2001: неразрешенный внешний символ "unsigned __int64 userSize" (?userSize@@3_KA).
+Authorization.obj : error LNK2001: неразрешенный внешний символ "unsigned __int64 userSize" (?userSize@@3_KA).
+Authorization.obj : error LNK2001: неразрешенный внешний символ "unsigned __int64 currentId" (?currentId@@3_KA).
+Authorization.obj : error LNK2001: неразрешенный внешний символ "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > currentStatus" (?currentStatus@@3V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@A).
+C:\Users\Котак\source\repos\Shop2-main\Shop2\x64\Debug\Shop2.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
