@@ -94,21 +94,21 @@ void SuperAdminMenu()
 		{
 			ShowStorage();
 		}
-		else if (choose == L"3")
+		else if (choose == L"3" && sizeSt > 0)
 		{
 			AddProduct();
 		}
-		else if (choose == L"4")
+		else if (choose == L"4" && sizeSt > 0)
 		{
-
+			RemoveProduct();
 		}
-		else if (choose == L"5")
+		else if (choose == L"5" && sizeSt > 0)
 		{
-
+			ChangePrice();
 		}
 		else if (choose == L"6")
 		{
-
+			ChangeStorage();
 		}
 		else if (choose == L"7")
 		{
